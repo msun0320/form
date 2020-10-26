@@ -3,7 +3,7 @@ const form = document.querySelector('form');
 const errorList = document.querySelector('section.error ul');
 let errors = [];
 
-const addError = () => {
+const findError = () => {
 	const inputs = document.querySelectorAll('input');
 
 	inputs.forEach(element => {
@@ -19,7 +19,7 @@ const addError = () => {
 };
 
 const showError = () => {
-	addError();
+	findError();
 
 	errors.forEach(element => {
 		const errorElement = document.createElement('li');
