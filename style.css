@@ -84,7 +84,7 @@ button {
 	}
 
 	.container {
-		width: 100vw;
+		width: calc(100vw - 100px);
 	}
 
 	.short-input {
